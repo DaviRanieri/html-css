@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    background-color: #A3DD40;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #587723;
+    color: white;
+}
+
+h1 {
+    color: #3F5519;
+
+}
+
+h2 {
+    color: rgb(0, 46, 0);
+}
+
+.basic {
+    color: #14BB11;
+    font-weight: bold;
+}
+
+.intermediate {
+    color: yellow;
+
+}
+
+.advanced {
+    color: red;
+
+}
+
+.destaque {
+    background-color: rgba(204, 204, 9, 0.692);
+}
