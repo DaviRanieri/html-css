@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum eveniet in molestias debitis commodi
+                fugit incidunt, ullam quasi sit optio, accusamus culpa, voluptatibus similique quae. Nam ut aut cumque
+                necessitatibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit aperiam quisquam amet
+                dolore vero excepturi obcaecati expedita dolorem quia, eos minima nobis accusamus sed esse laborum.
+                Incidunt eius dolore vitae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum error iure
+                repellendus laudantium, beatae sit, quisquam labore velit nobis ad delectus qui commodi similique alias
+                architecto aspernatur, officia odit modi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum eveniet in molestias debitis commodi
+                fugit incidunt, ullam quasi sit optio, accusamus culpa, voluptatibus similique quae. Nam ut aut cumque
+                necessitatibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit aperiam quisquam amet
+                dolore vero excepturi obcaecati expedita dolorem quia, eos minima nobis accusamus sed esse laborum.
+                Incidunt eius dolore vitae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum error iure
+                repellendus laudantium, beatae sit, quisquam labore velit nobis ad delectus qui commodi similique alias
+                architecto aspernatur, officia odit modi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum eveniet in molestias debitis commodi
+                fugit incidunt, ullam quasi sit optio, accusamus culpa, voluptatibus similique quae. Nam ut aut cumque
+                necessitatibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit aperiam quisquam amet
+                dolore vero excepturi obcaecati expedita dolorem quia, eos minima nobis accusamus sed esse laborum.
+                Incidunt eius dolore vitae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum error iure
+                repellendus laudantium, beatae sit, quisquam labore velit nobis ad delectus qui commodi similique alias
+                architecto aspernatur, officia odit modi.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+
+</html>
