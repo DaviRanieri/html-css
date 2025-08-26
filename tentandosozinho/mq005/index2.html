@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilo/style.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="burger" class="material-icons" onclick="clicarMenu()">menu</i>
+        <nav>
+            <li><a href="#">Página Inicial</a></li>
+            <li><a href="#">Sobre o fundandor</a></li>
+            <li><a href="#">Conhecimentos</a></li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Créditos</a></li>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Página Inicial</h2>
+            <p>Esse site, esta sendo desenvolvido para demonstrar um pouco do conhecimento que obtive até esse exato ponto do curso de <strong><abbr title="Hyper Text Markup Language">HTML5</abbr></strong> e <strong><abbr title="Cascading Style Sheet">CSS3</abbr></strong> do Curso em Video, do <strong><abbr title="Nome do ser divino que me trouxe até aqui">Gustavo Guanabara</abbr></strong>.</p>
+            <p>Até agora, sei somente até a parte de <strong>Media Query</strong>, <strong>Mobile First</strong>, <strong>iframes</strong>, <strong><abbr title="Hyper Text Markup Language">HTML5</abbr></strong> semantico e um pouco de <strong><abbr title="Cascading Style Sheet">CSS3</abbr></strong> (<ins>ainda não cheguei na parte de Flexbox e GridLayout</ins>).</p>
+            <p>Irei utilizar <strong>Media Queries</strong> para deixar esse site responsivo a diversas telas, utilizando as medidas cedidas pelo <strong><abbr title="Consórcio World Wide Web">W3C</abbr></strong> sobre tamanho das telas.</p>
+        </article>
+    </main>
+    <script>
+        function clicarMenu() {
+            if (menu.style.display == block) {
+                menu.style.display = none
+            }
+        }
+    </script>
+</body>
+</html>
