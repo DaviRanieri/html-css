@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    background-image: linear-gradient(to bottom, #5F2C82, #4B979B);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+    margin: auto;
+    width: 55vw;
+    height: 30vh;
+    border-radius: 20px;
+
+}
+
+header, p {
+    text-align: center;
+}
+
+#iemail {
+    justify-content: center;
+}
