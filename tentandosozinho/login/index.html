@@ -4,26 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
     <title>Login</title>
 </head>
 <body>
-    <section id="dados">
-        <header>
-            <h1>Login</h1>
-        </header>
-        <main>
-            <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-            <form action="post">
-                <div class="fundo"><input type="email" name="email" id="iemail" placeholder="Seu email"></div>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <!-- Vai a imagem -->
+            </div>
+            <div id="form">
+                <h1>Login</h1>
+                <p>Seja bem vindo novamente, faça login para acessar a sua conta.</p>
+
+                <input type="email" name="email" id="iemail" placeholder="Digite o seu email">
                 <label for="email"></label>
 
-                <div class="fundo"><input type="password" name="senha" id="isenha" placeholder="Sua senha"></div>
-                <label for="senha"></label>
-
-                <input type="submit" value="Entrar">
-                <input type="button" value="Esquecia a senha">
-            </form>
-        </main>
-    </section>
+                <input type="password" name="password" id="ipassword" placeholder="Digite a sua senha">
+                <label for="password"></label>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
